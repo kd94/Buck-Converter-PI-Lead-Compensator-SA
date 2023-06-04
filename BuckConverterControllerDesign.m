@@ -335,8 +335,6 @@ function Add_PILead_Comp_Callback(hObject, eventdata, handles)
     set(handles.Settlingtime_EditBox, 'string',Gpi_lead_stepinfo.SettlingTime);
     set(handles.Risetime_EditBox, 'string',Gpi_lead_stepinfo.RiseTime);
 
-    open('BuckSimulinkDesign.slx');
-
 function Clc_Axes_Callback(hObject, eventdata, handles)
 cla(handles.axes_bode,'reset')
 cla(handles.axes_StepResponse,'reset')
